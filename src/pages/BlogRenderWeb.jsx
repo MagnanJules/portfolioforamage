@@ -26,18 +26,18 @@ const BlogWeb = () => (
   <div className="bg-white py-24 sm:py-32">
     <div className="grid grid-cols-3 gap-4 px-20 py-20">
       {/* Card pour le portfolio */}
-      <CustomCard href="https://magnanjules.github.io/portfolio/" imgSrc={portfolio_img} title="Dorset Portfolio" description="My HTML dorset portfolio" />
+      <CustomCard href="portfolio/index.html" imgSrc={portfolio_img} title="Dorset Portfolio" description="My HTML dorset portfolio" />
 
       {/* Card pour la mode */}
-      <CustomCard href="https://magnanjules.github.io/portfolio/fashion/index.html" imgSrc={fashion_image} title="Fashion Project" description="" />
+      <CustomCard href="portfolio/fashion/index.html" imgSrc={fashion_image} title="Fashion Project" description="" />
 
       {/* Card pour les smoothies */}
-      <CustomCard href="https://magnanjules.github.io/portfolio/smoothies/index.html" imgSrc={smoothie_image} title="Smoothie Project" description="" />
+      <CustomCard href="portfolio/smoothies/index.html" imgSrc={smoothie_image} title="Smoothie Project" description="" />
 
-      <CustomCard href="https://magnanjules.github.io/portfolio/project-multi-column/index.html" imgSrc={project_multi_col} title="Project Multi Hero Column" description="" />
-      <CustomCard href="https://magnanjules.github.io/portfolio/crypto-wallet/" imgSrc={projet_crypto} title="Crypto Wallet Project" description="" />
+      <CustomCard href="portfolio/project-multi-column/index.html" imgSrc={project_multi_col} title="Project Multi Hero Column" description="" />
+      <CustomCard href="portfolio/crypto-wallet/index.html" imgSrc={projet_crypto} title="Crypto Wallet Project" description="" />
 
-      <CustomCard href="https://magnanjules.github.io/portfolio/project-hero/index-1.html" imgSrc={project_hero} title="Hero Block Project" description="" />
+      <CustomCard href="portfolio/project-hero/index-1.html" imgSrc={project_hero} title="Hero Block Project" description="" />
     </div>
   </div>
 );
