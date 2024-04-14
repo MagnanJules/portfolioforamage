@@ -26,7 +26,7 @@ const BlogWeb = () => (
   <div className="bg-white py-24 sm:py-32">
     <div className="grid grid-cols-3 gap-4 px-20 py-20">
       {/* Card pour le portfolio */}
-      <CustomCard href="https://magnanjules.github.io/portfolio/" imgSrc={portfolio_img} title="Portfolio" description="" />
+      <CustomCard href="https://magnanjules.github.io/portfolio/" imgSrc={portfolio_img} title="Dorset Portfolio" description="My HTML dorset portfolio" />
 
       {/* Card pour la mode */}
       <CustomCard href="https://magnanjules.github.io/portfolio/fashion/index.html" imgSrc={fashion_image} title="Fashion Project" description="" />
