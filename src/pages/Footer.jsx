@@ -1,25 +1,13 @@
+import React from 'react';
 
-const Footer = () => {
-    
-    return (
-        <footer className="theme-dark footer-0 text-center-desktop text-center-mobile">
-    
-            <h2>ABC Limited</h2>
-            <h3>Awesome and affordable products</h3>
-    
-            <ul className="footer-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/products">Products</a></li>
-                <li><a href="/services">Services</a></li>
-            </ul>
-    
-    
-            <div className="copyright">
-                <p>Copyright © 2023 ABC Limited. All rights reserved.</p>
-            </div>
-        </footer>
-   
-    )
+function Footer() {
+  return (
+    <footer className="bg-gray-800 text-gray-300 py-6">
+      <div className="container mx-auto flex justify-center items-center">
+        <p className="text-center">&copy; 2024 My WebSite. Young Wizard.</p>
+      </div>
+    </footer>
+  );
 }
 
 export default Footer;
